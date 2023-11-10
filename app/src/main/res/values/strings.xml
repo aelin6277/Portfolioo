@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Portfolioo</string>
+    <string name="TitleTextView">Portfolio</string>
+    <string name="button">Profile</string>
+    <string name="button2">It</string>
+    <string name="button4">Other info</string>
+    <string name="ProfileTextView">Hej, jag heter Elin Andersson. Det senaste decenniet har jag jobbat
+        som sjuksköterska och har sedan två år tillbaka en önskan om att få jobba med något friskt! </string>
+    <string name="projectName">Project Name</string>
+    <string name="TextViewCards">About cards game</string>
+    <string name="TextViewEmployee">About Employee app</string>
+    <string name="TextViewMenu">About Meny app</string>
+</resources>
