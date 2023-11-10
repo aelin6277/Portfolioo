@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/project_detail_name"
+        android:layout_width="410dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="It Project Name Place Holder"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/project_detail_github_url"
+        android:layout_width="408dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:text="GitHub url place holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/project_detail_name" />
+
+    <TextView
+        android:id="@+id/project_detail_description"
+        android:layout_width="404dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="8dp"
+        android:text="Project Description Place Holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/project_detail_github_url" />
+
+    <ImageView
+        android:id="@+id/project_detail_image"
+        android:layout_width="405dp"
+        android:layout_height="443dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/profilbild" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

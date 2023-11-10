@@ -1,12 +1,13 @@
 package com.example.portfolioo
 
-import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
 class ProjectRecyclerAdapter( val projects: List<Project> ) :
@@ -27,7 +28,18 @@ class ProjectRecyclerAdapter( val projects: List<Project> ) :
 
         // sätt in den personens uppgifter i vår view
         holder.projectName.text = project.name
-        holder.projectImagePreview.setImageResource( project.imageView)
+        holder.projectImagePreview.setImageResource(project.image)
+
+        holder.itemView.setOnClickListener(View.OnClickListener { view ->
+            val intent = Intent(holder.itemView.context, ProjectDetailActivity::class.java)
+
+            intent.putExtra("project_name",  project.name)
+            intent.putExtra("project_description",  project.description)
+            intent.putExtra("project_github_url",  project.github)
+            intent.putExtra("project_image",  project.image)
+
+            holder.itemView.context.startActivity(intent)
+        })
     }
 
     override fun getItemCount(): Int { //TIENE SENTIDO?
