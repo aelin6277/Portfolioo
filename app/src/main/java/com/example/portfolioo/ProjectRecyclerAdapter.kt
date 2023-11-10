@@ -9,13 +9,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ProjectRecyclerAdapter(val context: Context, val projects: List<Project> ) :
+class ProjectRecyclerAdapter( val projects: List<Project> ) :
     RecyclerView.Adapter<ProjectRecyclerAdapter.ViewHolder>(){
 
-    val layoutInflater = LayoutInflater.from(context)
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val itemView = layoutInflater.inflate(R.layout.list_item, parent, false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
         Log.d("!!!Adapter", "oncreateViewholder")
 
         return ViewHolder(itemView)
