@@ -4,11 +4,8 @@
     <string name="button">Other info</string>
     <string name="buttonItProjects">It projects</string>
     <string name="buttonProfile">Profile</string>
-    <string name="ProfileTextView">Hej, jag heter Elin Andersson. Hela mitt vuxna liv har jag jobbat inom vårdyrket.
-        Det senaste decenniet har jag jobbat som sjuksköterska och har sedan en tid tillbaka en önskan om
-        att få jobba med något friskt! </string>
-    <string name="projectName">Project Name</string>
-    <string name="TextViewCards">About cards game</string>
-    <string name="TextViewEmployee">About Employee app</string>
-    <string name="TextViewMenu">About Meny app</string>
+    <string name="ProfileTextView">Hi, my name is Elin Andersson. All my adult life I have worked in the healthcare profession.
+         For the past decade I have worked as a nurse and have had a desire for some time now
+         to work with something healthy! </string>
+    <string name="textOtherInfo"> Link to my CV. https://docs.google.com/document/d/1THY6ycOnT8JgXJFwyfja09iYvcYEtitbwjaR_DdhoUA/edit#heading=h.pea4fylqwfuv </string>
 </resources>

@@ -7,22 +7,27 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var button : Button
-    lateinit var buttonItProjects : Button
     lateinit var buttonProfile : Button
+    lateinit var buttonItProjects : Button
+    lateinit var buttonOtherInfo : Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        buttonItProjects = findViewById(R.id.buttonItProjects)
         buttonProfile = findViewById<Button>(R.id.buttonProfile)
+        buttonItProjects = findViewById(R.id.buttonItProjects)
+        buttonOtherInfo = findViewById(R.id.button)
 
         buttonProfile.setOnClickListener {
             handleButtonProfilePress()
         }
         buttonItProjects.setOnClickListener {
             handleButtonItProjectsPress()
+        }
+        buttonOtherInfo.setOnClickListener {
+            handleButtonOtherInfo()
         }
 
     }
@@ -37,4 +42,8 @@ class MainActivity : AppCompatActivity() {
        val intent = Intent(this, ProjectActivity::class.java)
        startActivity(intent)
    }
+    fun handleButtonOtherInfo() {
+        val intent = Intent(this, OtherInfoActivity::class.java)
+        startActivity(intent)
+    }
 }

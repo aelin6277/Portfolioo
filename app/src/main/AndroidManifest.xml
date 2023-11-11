@@ -25,6 +25,7 @@
         <activity android:name=".ProjectActivity"/>
         <activity android:name=".ProfileActivity" />
         <activity android:name=".ProjectDetailActivity" />
+        <activity android:name=".OtherInfoActivity" />
     </application>
 
 </manifest>

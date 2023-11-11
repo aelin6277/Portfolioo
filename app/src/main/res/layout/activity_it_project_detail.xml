@@ -12,7 +12,7 @@
         android:layout_height="72dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="It Project Name Place Holder"
+        android:text=""
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,23 +21,24 @@
 
     <TextView
         android:id="@+id/project_detail_github_url"
-        android:layout_width="408dp"
-        android:layout_height="45dp"
+        android:layout_width="328dp"
+        android:layout_height="46dp"
         android:layout_marginTop="24dp"
-        android:text="GitHub url place holder"
+        android:text="https://github.com/aelin6277/Cardsgame"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project_detail_name" />
 
     <TextView
         android:id="@+id/project_detail_description"
-        android:layout_width="404dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="8dp"
-        android:text="Project Description Place Holder"
+        android:layout_width="350dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="12dp"
+        android:text="Cardsgame: It has a welcome page. Then there is an image of a card and you can now guess if next
+card is lower or higher than the current card. When you get to 1000 point the game ends and you are considered a winner."
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project_detail_github_url" />
 
@@ -50,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/profilbild" />
+        app:srcCompat="@drawable/cardsgameapp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

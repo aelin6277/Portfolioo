@@ -1,6 +1,6 @@
 package com.example.portfolioo
 
-//MVP arkitektur?
+//MVP arkitektur
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -17,21 +17,22 @@ class ProjectActivity : AppCompatActivity() {
     var projects = mutableListOf<Project>(
         Project(
             "Cards Game",
-            "Beskriv",
-            "http://github.com",
+            "BesIt has a welcome page. Then there is an image of a card and you can now guess if next\n" +
+                    " card is lower or higher than the current card. When you get to 1000 point the game ends and you are considered a winner.kriv",
+            "https://github.com/aelin6277/Cardsgame",
             R.drawable.cardsgameapp
         ),//hejkonpejkon
         Project("BMI app",
-            "Beskriv",
-            "http://github.com 2",
+            "bmiapp: The user can write its lenght and weight, press the button that says \"calculate\" and get its BMI.\n",
+            "http://github.com/example2",
             R.drawable.bmiapp),
         Project("Menu app",
-            "Beskriv",
-            "http://github.com3",
+            "Menu app Beskriv, Lorem ipsum dolor sit amet, tale nulla consetetur cum cu, sea facilis accumsan prodesset ne. No quo hinc ludus labitur.",
+            "http://github.com/example3",
             R.drawable.menyapp),
-        Project("employee",
-            "Beskriv",
-            "http://github.com 2",
+        Project("Employee app",
+            "Employee app Beskriv, Lorem ipsum dolor sit amet, tale nulla consetetur cum cu, sea facilis accumsan prodesset ne. No quo hinc ludus labitur.",
+            "http://github.com/example4",
             R.drawable.employeeappen),
         // Project("BMI app","Beskriv", "http://github.com 2", R.drawable.bmiapp1),
         //   Project("BMI app","Beskriv", "http://github.com 2", R.drawable.bmiapp1)
@@ -52,32 +53,7 @@ class ProjectActivity : AppCompatActivity() {
 
         // Kopplar ihop min adapter med min RecyclerView:
         recyclerView.adapter = adapter
-
-
-        // 1. skapa adapter
-        // 2. koppla data ( vilken ) till adapter
-        // 3. koppla adapter till recycleview
-
-
     }
 
 
 }
-
-
-//    handleButtonItProjects()
-//
-//    buttonItProjects = findViewById<Button>(R.id.ButtonItProjects)
-//
-//    buttonItProjects.setOnClickListener(){
-//        handleButtonItProjects()
-//    }
-//
-//    fun handleButtonItProjects(){
-//        val intent = Intent(this, Project::class.java)
-//        startActivity(intent)
-//    }
-//}
-//
-//
-//
