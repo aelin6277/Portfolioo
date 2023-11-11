@@ -8,12 +8,14 @@
 
     <TextView
         android:id="@+id/titleTextView"
-        android:layout_width="410dp"
-        android:layout_height="72dp"
-        android:layout_marginBottom="4dp"
-        android:text="Portfolio"
+        android:layout_width="@dimen/title_width"
+        android:layout_height="@dimen/title_height"
+        android:layout_marginBottom="@dimen/title_margin_botton"
+        android:layout_marginTop="@dimen/title_margin_top"
         android:gravity="center"
-        android:textSize="44sp"
+        android:text="@string/main_title"
+        android:textSize="@dimen/main_title_text_size"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,49 +23,60 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="341dp"
-        android:layout_height="402dp"
-        android:layout_marginBottom="236dp"
+        android:layout_width="@dimen/main_image_width"
+        android:layout_height="@dimen/main_image_height"
+        android:layout_marginBottom="@dimen/main_image_margin_botton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/workmanager" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="117dp"
-        android:layout_height="136dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="76dp"
-        android:text="Other info"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/buttonItProjects"
-        android:layout_width="117dp"
-        android:layout_height="136dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="76dp"
-        android:text="It projects"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button" />
 
     <Button
         android:id="@+id/buttonProfile"
-        android:layout_width="117dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="76dp"
-        android:text="Profile"
-        android:textSize="18sp"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_marginStart="@dimen/main_button_margin_start"
+        android:layout_marginEnd="@dimen/main_button_margin_end"
+        android:layout_marginBottom="@dimen/main_button_margin_bottom"
+        android:text="@string/profile_button_name"
+        android:textSize="@dimen/main_button_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonItProjects"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonItProjects"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_marginStart="@dimen/main_button_margin_start"
+        android:layout_marginEnd="@dimen/main_button_margin_end"
+        android:layout_marginBottom="@dimen/main_button_margin_bottom"
+        android:text="@string/it_projects_button_name"
+        android:textSize="@dimen/main_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonOtherInfo"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/buttonOtherInfo"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_marginStart="@dimen/main_button_margin_start"
+        android:layout_marginEnd="@dimen/main_button_margin_end"
+        android:layout_marginBottom="@dimen/main_button_margin_bottom"
+        android:text="@string/other_info_button_name"
+        android:textSize="@dimen/main_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

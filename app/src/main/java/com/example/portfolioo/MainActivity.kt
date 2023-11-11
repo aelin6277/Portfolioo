@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonProfile = findViewById<Button>(R.id.buttonProfile)
         buttonItProjects = findViewById(R.id.buttonItProjects)
-        buttonOtherInfo = findViewById(R.id.button)
+        buttonOtherInfo = findViewById(R.id.buttonOtherInfo)
 
         buttonProfile.setOnClickListener {
             handleButtonProfilePress()

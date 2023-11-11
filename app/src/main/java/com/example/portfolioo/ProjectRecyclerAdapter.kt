@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
 class ProjectRecyclerAdapter( val projects: List<Project> ) :
@@ -28,7 +27,7 @@ class ProjectRecyclerAdapter( val projects: List<Project> ) :
 
         // sätt in den personens uppgifter i vår view
         holder.projectName.text = project.name
-        holder.projectImagePreview.setImageResource(project.image)
+        holder.projectImagePreview.setImageResource(project.imageSrc)
 
         holder.itemView.setOnClickListener(View.OnClickListener { view ->
             val intent = Intent(holder.itemView.context, ProjectDetailActivity::class.java)
@@ -36,7 +35,7 @@ class ProjectRecyclerAdapter( val projects: List<Project> ) :
             intent.putExtra("project_name",  project.name)
             intent.putExtra("project_description",  project.description)
             intent.putExtra("project_github_url",  project.github)
-            intent.putExtra("project_image",  project.image)
+            intent.putExtra("project_image",  project.imageSrc)
 
             holder.itemView.context.startActivity(intent)
         })

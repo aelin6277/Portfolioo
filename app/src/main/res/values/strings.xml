@@ -4,8 +4,19 @@
     <string name="button">Other info</string>
     <string name="buttonItProjects">It projects</string>
     <string name="buttonProfile">Profile</string>
-    <string name="ProfileTextView">Hi, my name is Elin Andersson. All my adult life I have worked in the healthcare profession.
+
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_text_view">Hi, my name is Elin Andersson. All my adult life I have worked in the healthcare profession.
          For the past decade I have worked as a nurse and have had a desire for some time now
-         to work with something healthy! </string>
-    <string name="textOtherInfo"> Link to my CV. https://docs.google.com/document/d/1THY6ycOnT8JgXJFwyfja09iYvcYEtitbwjaR_DdhoUA/edit#heading=h.pea4fylqwfuv </string>
+         to work with something healthy! My dream is to work with IT! </string>
+    <string name="title_text_other_info">Other info</string>
+    <string name="text_other_info"> Link to my CV https://docs.google.com/document/d/elinCV </string>
+    <string name="repo_url">Repo Url:</string>
+    <string name="main_title">Portfolio</string>
+    <string name="profile_button_name">Profile</string>
+    <string name="it_projects_button_name">It projects</string>
+    <string name="other_info_button_name">Other info</string>
+    <string name="it_projects_title_name">IT Projects</string>
+
 </resources>

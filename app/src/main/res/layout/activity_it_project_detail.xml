@@ -8,45 +8,63 @@
 
     <TextView
         android:id="@+id/project_detail_name"
-        android:layout_width="410dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="@dimen/title_width"
+        android:layout_height="@dimen/title_height"
+        android:layout_marginBottom="@dimen/title_margin_botton"
+        android:layout_marginTop="@dimen/title_margin_top"
         android:gravity="center"
-        android:text=""
-        android:textSize="32sp"
+        android:text="Project Name Place Holder"
+        android:textSize="@dimen/titleTextSize"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
-        android:id="@+id/project_detail_github_url"
-        android:layout_width="328dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:text="https://github.com/aelin6277/Cardsgame"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        android:id="@+id/repo_url_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/repo_url_title_margin_start"
+        android:layout_marginTop="@dimen/repo_url_title_margin_end"
+        android:text="@string/repo_url"
+        android:textSize="@dimen/description_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project_detail_name" />
 
     <TextView
-        android:id="@+id/project_detail_description"
-        android:layout_width="350dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="12dp"
-        android:text="Cardsgame: It has a welcome page. Then there is an image of a card and you can now guess if next
-card is lower or higher than the current card. When you get to 1000 point the game ends and you are considered a winner."
+        android:id="@+id/project_detail_github_url"
+        android:layout_width="@dimen/project_detail_github_url_width"
+        android:layout_height="@dimen/project_detail_github_url_height"
+        android:layout_marginTop="@dimen/project_detail_github_url_margin_top"
+        android:layout_marginEnd="@dimen/project_detail_github_url_margin_end"
+        android:text="url place holder"
+        android:textSize="@dimen/github_text_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toEndOf="@+id/repo_url_title"
+        app:layout_constraintTop_toBottomOf="@+id/project_detail_name" />
+
+
+    <TextView
+        android:id="@+id/project_detail_description"
+        android:layout_width="@dimen/project_detail_description_width"
+        android:layout_height="@dimen/project_detail_description_height"
+        android:layout_marginTop="@dimen/project_detail_description_margin_top"
+        android:layout_marginStart="@dimen/project_detail_description_margin_start"
+        android:layout_marginEnd="@dimen/project_detail_description_margin_end"
+        android:text="Description Place Holder"
+        android:textSize="@dimen/description_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project_detail_github_url" />
 
+
     <ImageView
         android:id="@+id/project_detail_image"
-        android:layout_width="405dp"
-        android:layout_height="443dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="@dimen/project_detail_image_width"
+        android:layout_height="@dimen/project_detail_image_height"
+        android:layout_marginBottom="@dimen/project_detail_image_margin_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

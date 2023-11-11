@@ -8,22 +8,24 @@
 
     <TextView
         android:id="@+id/titleOtherInfo"
-        android:layout_width="410dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="@dimen/title_width"
+        android:layout_height="@dimen/title_height"
+        android:layout_marginBottom="@dimen/title_margin_botton"
+        android:layout_marginTop="@dimen/title_margin_top"
         android:gravity="center"
-        android:text="Other info"
-        android:textSize="44sp"
+        android:text="@string/title_text_other_info"
+        android:textSize="@dimen/other_info_title_size"
+        android:textStyle="bold|normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageNurse"
-        android:layout_width="341dp"
-        android:layout_height="402dp"
-        android:layout_marginBottom="200dp"
+        android:id="@+id/OtherInfoImage"
+        android:layout_width="@dimen/other_info_layout_width"
+        android:layout_height="@dimen/other_info_layout_height"
+        android:layout_marginBottom="@dimen/other_info_layout_margin_bottom_image_nurse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.628"
@@ -32,14 +34,16 @@
 
     <TextView
         android:id="@+id/textOtherInfo"
-        android:layout_width="350dp"
-        android:layout_height="84dp"
-        android:layout_marginBottom="68dp"
-        android:text="@string/textOtherInfo"
+        android:layout_width="@dimen/other_info_layout_width_text_size"
+        android:layout_height="@dimen/other_info_layout_height_text_size"
+        android:layout_marginBottom="@dimen/other_info_layout_margin_bottom_text"
+        android:text="@string/text_other_info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.573"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="@dimen/other_info_description_text_size"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
