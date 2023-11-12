@@ -9,7 +9,8 @@
     <dimen name="other_info_layout_height">410dp</dimen>
     <dimen name="other_info_layout_width">341dp</dimen>
 
-    <dimen name="other_info_description_text_size">18sp</dimen>
+    <dimen name="other_info_description_text_size">20sp</dimen>
+
     <dimen name="other_info_project_name_on_list_text_size">22sp</dimen>
     <dimen name="other_info_github_text_size">14sp</dimen>
     <dimen name="other_info_title_width">410dp</dimen>
@@ -21,8 +22,8 @@
     <dimen name="other_info_layout_height_text_size">84dp</dimen>
     <dimen name="other_info_layout_margin_bottom_text">68dp</dimen>
 
-    <dimen name="profile_title_width">410dp</dimen>
-    <dimen name="profile_title_height">72dp</dimen>
+    <dimen name="profile_title_width">264dp</dimen>
+    <dimen name="profile_title_height">159dp</dimen>
     <dimen name="profile_title_size">45sp</dimen>
     <dimen name="profile_title_layout_margin_bottom">4dp</dimen>
 
@@ -39,8 +40,8 @@
     <dimen name="detail_">45sp</dimen>
     <dimen name="main_title_text_size">45sp</dimen>
 
-    <dimen name="titleTextSize">50sp</dimen>
-    <dimen name="description_text_size">18sp</dimen>
+    <dimen name="detail_title_size">45sp</dimen>
+    <dimen name="description_text_size">20sp</dimen>
     <dimen name="project_name_on_list_text_size">22sp</dimen>
     <dimen name="github_text_size">14sp</dimen>
     <dimen name="title_width">410dp</dimen>

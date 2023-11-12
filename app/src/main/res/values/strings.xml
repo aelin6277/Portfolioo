@@ -4,8 +4,6 @@
     <string name="button">Other info</string>
     <string name="buttonItProjects">It projects</string>
     <string name="buttonProfile">Profile</string>
-
-
     <string name="profile_title">Profile</string>
     <string name="profile_text_view">Hi, my name is Elin Andersson. All my adult life I have worked in the healthcare profession.
          For the past decade I have worked as a nurse and have had a desire for some time now
@@ -15,8 +13,8 @@
     <string name="repo_url">Repo Url:</string>
     <string name="main_title">Portfolio</string>
     <string name="profile_button_name">Profile</string>
-    <string name="it_projects_button_name">It projects</string>
+    <string name="it_projects_button_name">IT projects</string>
     <string name="other_info_button_name">Other info</string>
-    <string name="it_projects_title_name">IT Projects</string>
+    <string name="it_projects_title_name">IT projects</string>
 
 </resources>

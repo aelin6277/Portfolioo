@@ -14,7 +14,7 @@
         android:layout_marginTop="@dimen/title_margin_top"
         android:gravity="center"
         android:text="Project Name Place Holder"
-        android:textSize="@dimen/titleTextSize"
+        android:textSize="@dimen/detail_title_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

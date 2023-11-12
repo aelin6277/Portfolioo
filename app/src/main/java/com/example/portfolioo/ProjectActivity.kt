@@ -15,13 +15,13 @@ class ProjectActivity : AppCompatActivity() {
     var projects = mutableListOf<Project>(
         Project(
             "Cards Game",
-            "It has a welcome page. Then there is an image of a card and you can now guess if next\n" +
-                    " card is lower or higher than the current card. When you get to 1000 point the game ends and you are considered a winner.kriv",
+            "It has a welcome page. Then there is an image of a card and you can now guess if next" +
+                    " card is lower or higher than the current card. When you get to 1000 point the game ends and you are considered a winner.",
             "https://github.com/aelin6277/Cardsgame",
             R.drawable.cardsgameapp
         ),
         Project("BMI app",
-            "The user can write its lenght and weight, press the button that says \"calculate\" and get its BMI.\n",
+            "The user can write lenght and weight, press the button that says \"calculate\" and get current BMI.",
             "http://github.com/example2",
             R.drawable.bmiapp),
         Project("Menu app",

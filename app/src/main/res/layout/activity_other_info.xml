@@ -43,6 +43,7 @@
         app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         android:textSize="@dimen/other_info_description_text_size"
+        android:gravity="center"
         />
 
 

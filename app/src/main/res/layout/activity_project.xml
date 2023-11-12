@@ -15,7 +15,7 @@
         android:layout_marginTop="@dimen/title_margin_top"
         android:gravity="center"
         android:text="@string/it_projects_title_name"
-        android:textSize="@dimen/titleTextSize"
+        android:textSize="@dimen/detail_title_size"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/ProjectRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
